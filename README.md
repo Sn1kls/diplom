@@ -1,5 +1,3 @@
-# SoulVia
-
 ## Installation
 1. Install uv 
     ````shell

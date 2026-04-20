@@ -1,54 +1,54 @@
-name: Deploy Backend
+# name: Deploy Backend
 
-on:
-  push:
-    branches:
-      - main
-      - develop
+# on:
+#   push:
+#     branches:
+#       - main
+#       - develop
 
-jobs:
-  deploy-dev:
-    if: github.ref == 'refs/heads/develop'
-    runs-on: ubuntu-latest
+# jobs:
+#   deploy-dev:
+#     if: github.ref == 'refs/heads/develop'
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      - name: Deploy to DEV server via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.DEV_SERVER_HOST }}
-          username: ${{ secrets.DEV_SERVER_USER }}
-          key: ${{ secrets.DEV_SSH_PRIVATE_KEY }}
-          port: ${{ secrets.DEV_SERVER_PORT }}
-          script: |
-            cd /projects/back
-            git fetch origin
-            git checkout ${{ github.ref_name }}
-            git reset --hard origin/${{ github.ref_name }}
-            cd /projects
-            docker compose up --build -d
+#       - name: Deploy to DEV server via SSH
+#         uses: appleboy/ssh-action@v1.0.3
+#         with:
+#           host: ${{ secrets.DEV_SERVER_HOST }}
+#           username: ${{ secrets.DEV_SERVER_USER }}
+#           key: ${{ secrets.DEV_SSH_PRIVATE_KEY }}
+#           port: ${{ secrets.DEV_SERVER_PORT }}
+#           script: |
+#             cd /projects/back
+#             git fetch origin
+#             git checkout ${{ github.ref_name }}
+#             git reset --hard origin/${{ github.ref_name }}
+#             cd /projects
+#             docker compose up --build -d
 
-  deploy-prod:
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+#   deploy-prod:
+#     if: github.ref == 'refs/heads/main'
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
 
-      - name: Deploy to PROD server via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.PROD_SERVER_HOST }}
-          username: ${{ secrets.PROD_SERVER_USER }}
-          key: ${{ secrets.PROD_SSH_PRIVATE_KEY }}
-          port: ${{ secrets.PROD_SERVER_PORT }}
-          script: |
-            cd /projects/back
-            git fetch origin
-            git checkout ${{ github.ref_name }}
-            git reset --hard origin/${{ github.ref_name }}
-            cd /projects
-            docker compose up --build -d
+#       - name: Deploy to PROD server via SSH
+#         uses: appleboy/ssh-action@v1.0.3
+#         with:
+#           host: ${{ secrets.PROD_SERVER_HOST }}
+#           username: ${{ secrets.PROD_SERVER_USER }}
+#           key: ${{ secrets.PROD_SSH_PRIVATE_KEY }}
+#           port: ${{ secrets.PROD_SERVER_PORT }}
+#           script: |
+#             cd /projects/back
+#             git fetch origin
+#             git checkout ${{ github.ref_name }}
+#             git reset --hard origin/${{ github.ref_name }}
+#             cd /projects
+#             docker compose up --build -d
