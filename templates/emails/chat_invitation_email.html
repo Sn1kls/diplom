@@ -1,0 +1,78 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Chat Invitation" %}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #F9FAFE; color: #464B55;">
+    <table role="presentation" style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td align="center" style="padding: 50px 10px;">
+                <table role="presentation" style="width: 100%; max-width: 560px; border-collapse: collapse; background-color: #ffffff; border-radius: 32px; box-shadow: 0 20px 40px rgba(135, 104, 214, 0.05); overflow: hidden;">
+                    <tr>
+                        <td style="height: 6px; background-color: #8768d6;"></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 40px 40px 20px 40px; text-align: center;">
+                            <div style="display: inline-block; background-color: #F0EDFB; padding: 15px; border-radius: 20px; margin-bottom: 24px;">
+                                <img src="https://img.icons8.com/fluency-systems-filled/48/8768d6/chat.png" width="32" height="32" alt="Chat" style="display: block;">
+                            </div>
+                            <h1 style="margin: 0; font-size: 28px; font-weight: 900; color: #1A1C21; letter-spacing: -0.02em;">
+                                {% blocktrans with first_name=user.first_name %}Hello, {{ first_name }}{% endblocktrans %}!
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0 50px 20px 50px; text-align: center;">
+                            <p style="margin: 0 0 14px 0; font-size: 17px; line-height: 1.6; color: #464B55;">
+                                {{ personal_invitation.custom_invite_message|default:_('Your account is now active. Join your SOULVIA chat group using the invitation below.') }}
+                            </p>
+                            <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #7E8492; font-weight: 700;">
+                                {{ personal_invitation.chat_title }}
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px 40px 30px 40px; text-align: center;">
+                            <a href="{{ personal_invitation.invite_link }}"
+                               style="display: inline-block; padding: 18px 40px; background-color: #8768d6; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: 800; border-radius: 18px; box-shadow: 0 10px 20px rgba(135, 104, 214, 0.25);">
+                                {% trans "Join your group chat" %}
+                            </a>
+                        </td>
+                    </tr>
+                    {% if general_invitation %}
+                    <tr>
+                        <td style="padding: 0 50px 24px 50px; text-align: center;">
+                            <p style="margin: 0 0 10px 0; font-size: 14px; line-height: 1.5; color: #7E8492;">
+                                {% trans "You can also join the main SOULVIA channel:" %}
+                            </p>
+                            <a href="{{ general_invitation.invite_link }}" style="font-size: 14px; font-weight: 700; color: #8768d6; text-decoration: none;">
+                                {{ general_invitation.chat_title }}
+                            </a>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    <tr>
+                        <td style="padding: 0 50px;">
+                            <div style="border-top: 2px solid #F1F2F9;"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 30px 50px 40px 50px; text-align: center;">
+                            <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #7E8492;">
+                                {% trans "If this email reached you by mistake, you can ignore it." %}
+                            </p>
+                            <p style="margin: 20px 0 0 0; font-size: 14px; font-weight: 700; color: #1A1C21;">
+                                © 2026 Soulvia.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,117 @@
+[project]
+name = "sw-ua-back"
+version = "1.16.0"
+description = "SW-UA Back"
+readme = "README.md"
+requires-python = ">=3.13.7"
+dependencies = [
+    "django-ninja>=1.4.3",
+    "django-ninja-jwt>=5.3.5",
+    "django-tinymce>=4.1.0",
+    "gunicorn>=23.0.0",
+    "pillow>=11.3.0",
+    "psycopg2-binary>=2.9.11",
+    "pytest>=8.4.2",
+    "python-dotenv>=1.1.1",
+    "django-extensions>=4.1",
+    "redis>=5.2.0, <6.4.0",
+    "django-redis>=5.4.0,<6.0.0",
+    "django-cors-headers>=4.4.0",
+    "django-debug-toolbar>=4.4.6",
+    "django-extensions>=4.1",
+    "email-validator>=2.1.0",
+    "django-unfold>=0.74.1",
+    "commitizen>=4.11.0",
+    "loguru>=0.7.3",
+    "django-phonenumber-field[phonenumbers]>=8.4.0",
+    "pytest-cov>=7.0.0",
+    "pytest-django>=4.11.1",
+    "boto3>=1.42.44",
+    "django-storages>=1.14.6",
+    "sentry-sdk>=2.52.0",
+    "django-sendgrid-v5>=1.3.1",
+    "user-agents>=2.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "django-stubs>=5.2.7",
+    "ruff>=0.14.0",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+fix = true
+exclude = ["migrations", "tests"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--ds=config.settings --reuse-db --cov=apps --cov-report=term-missing --cov-fail-under=80"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+python_classes = ["*Tests"]
+python_functions = ["test_*"]
+
+[tool.coverage.run]
+omit = [
+    "*/migrations/*",
+    "*/tests/*",
+    "*/tests.py",
+    "*/admin.py",
+    "*/apps.py",
+    "*/__init__.py",
+    "manage.py",
+    "config/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+
+[tool.commitizen]
+name = "cz_customize"
+version = "1.0.0"
+tag_format = "v$version"
+version_scheme = "pep440"
+version_provider = "uv"
+update_changelog_on_bump = true
+
+
+[tool.commitizen.customize]
+schema_pattern = "(fix|feat|docs|style|refactor|test|build)\\([A-Z]+-\\d+\\): .+"
+message_template = "{{change_type}}({{jira_id}}): {{message}}"
+
+
+[[tool.commitizen.customize.questions]]
+type = "list"
+name = "change_type"
+message = "Select the type of change you are committing (Use arrow keys)"
+choices = [
+    { value = "fix", name = "fix: A bug fix. Correlates with PATCH in SemVer" },
+    { value = "feat", name = "feat: A new feature. Correlates with MINOR in SemVer" },
+    { value = "docs", name = "docs: Documentation only changes" },
+    { value = "style", name = "style: Changes that do not affect the meaning of the code (white-space, formatting, etc)" },
+    { value = "refactor", name = "refactor: A code change that neither fixes a bug nor adds a feature" },
+    { value = "test", name = "test: Adding missing or correcting existing tests" },
+    { value = "build", name = "build: Changes that affect the build system or external dependencies (pip, docker, npm)" }
+]
+
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "jira_id"
+message = "Enter a JIRA ticket (e.g., SWUA-123):"
+validate = "^[A-Z]+-[0-9]+$"
+
+[[tool.commitizen.customize.questions]]
+type = "input"
+name = "message"
+message = "Write a short and imperative summary of the code changes: (lower case and no period):"

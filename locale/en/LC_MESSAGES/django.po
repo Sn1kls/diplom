@@ -1,0 +1,1054 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 22:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/homeworks/api.py:69 apps/homeworks/api.py:119
+#: apps/homeworks/models.py:103
+msgid ""
+"Please provide either a text answer or a file answer for current homework."
+msgstr ""
+
+#: apps/homeworks/apps.py:7 apps/homeworks/models.py:26
+msgid "Homeworks"
+msgstr ""
+
+#: apps/homeworks/exceptions.py:8
+#, fuzzy
+#| msgid "user__phone_already exists"
+msgid "User submission already exists."
+msgstr "A user with this phone number already exists."
+
+#: apps/homeworks/forms.py:22 apps/modules/forms.py:62
+#, python-brace-format
+msgid "{field} is required for {content_type}."
+msgstr ""
+
+#: apps/homeworks/forms.py:23
+msgid "homeworks"
+msgstr ""
+
+#: apps/homeworks/models.py:14 apps/modules/models.py:22
+#: apps/modules/models.py:59 apps/quizzes/models.py:11
+#, fuzzy
+#| msgid "last name"
+msgid "name"
+msgstr "Last Name"
+
+#: apps/homeworks/models.py:15 apps/modules/models.py:23
+#: apps/modules/models.py:92 apps/quizzes/models.py:12
+msgid "description"
+msgstr ""
+
+#: apps/homeworks/models.py:20
+msgid "lesson"
+msgstr ""
+
+#: apps/homeworks/models.py:22
+msgid "is auto-approved"
+msgstr ""
+
+#: apps/homeworks/models.py:25 apps/modules/models.py:18
+msgid "Homework"
+msgstr ""
+
+#: apps/homeworks/models.py:37 apps/quizzes/models.py:135
+#: apps/users/models.py:283 apps/users/models.py:358
+msgid "user"
+msgstr ""
+
+#: apps/homeworks/models.py:43
+msgid "homework"
+msgstr ""
+
+#: apps/homeworks/models.py:45
+msgid "answer"
+msgstr ""
+
+#: apps/homeworks/models.py:47
+msgid "file answer"
+msgstr ""
+
+#: apps/homeworks/models.py:53
+msgid "feedback"
+msgstr ""
+
+#: apps/homeworks/models.py:54
+msgid "is approved"
+msgstr ""
+
+#: apps/homeworks/models.py:55
+#, fuzzy
+#| msgid "date joined"
+msgid "date sent"
+msgstr "Date Joined"
+
+#: apps/homeworks/models.py:56
+#, fuzzy
+#| msgid "date joined"
+msgid "date reviewed"
+msgstr "Date Joined"
+
+#: apps/homeworks/models.py:57 apps/users/models.py:316
+#, fuzzy
+#| msgid "date joined"
+msgid "updated at"
+msgstr "Date Joined"
+
+#: apps/homeworks/models.py:60
+msgid "User Homework"
+msgstr ""
+
+#: apps/homeworks/models.py:61
+msgid "User Homeworks"
+msgstr ""
+
+#: apps/mental_health/apps.py:7 apps/mental_health/models.py:14
+#: apps/mental_health/models.py:15
+msgid "Mental Health"
+msgstr ""
+
+#: apps/mental_health/exceptions.py:8
+msgid "No response was provided in the first iteration."
+msgstr ""
+
+#: apps/mental_health/exceptions.py:13
+msgid "For the second iteration of the test, education must be completed."
+msgstr ""
+
+#: apps/mental_health/models.py:10
+msgid "Title"
+msgstr ""
+
+#: apps/mental_health/models.py:11
+msgid "Additional Content"
+msgstr ""
+
+#: apps/mental_health/models.py:22
+msgid "question text"
+msgstr ""
+
+#: apps/mental_health/models.py:23
+msgid "minimum score"
+msgstr ""
+
+#: apps/mental_health/models.py:24
+msgid "maximum score"
+msgstr ""
+
+#: apps/mental_health/models.py:25 apps/modules/models.py:24
+#: apps/modules/models.py:95 apps/quizzes/models.py:56
+#: apps/quizzes/models.py:100
+msgid "order"
+msgstr ""
+
+#: apps/mental_health/models.py:30 apps/mental_health/models.py:62
+#: apps/mental_health/models.py:68 apps/mental_health/models.py:90
+#: apps/mental_health/models.py:96
+msgid "mental health"
+msgstr ""
+
+#: apps/mental_health/models.py:34
+msgid "mental health question"
+msgstr ""
+
+#: apps/mental_health/models.py:35
+msgid "mental health questions"
+msgstr ""
+
+#: apps/mental_health/models.py:50
+msgid "Before start education"
+msgstr ""
+
+#: apps/mental_health/models.py:51
+msgid "After finish education"
+msgstr ""
+
+#: apps/mental_health/models.py:55
+#, fuzzy
+#| msgid "phone number"
+msgid "number"
+msgstr "Phone"
+
+#: apps/mental_health/models.py:56 apps/modules/models.py:94
+#: apps/quizzes/models.py:150 apps/users/models.py:111
+msgid "score"
+msgstr ""
+
+#: apps/mental_health/models.py:57 apps/mental_health/models.py:99
+#: apps/quizzes/models.py:151 apps/users/models.py:315 apps/users/models.py:365
+msgid "created at"
+msgstr ""
+
+#: apps/mental_health/models.py:72
+msgid "mental health attempt"
+msgstr ""
+
+#: apps/mental_health/models.py:73
+msgid "mental health attempts"
+msgstr ""
+
+#: apps/mental_health/models.py:98 apps/quizzes/models.py:98
+msgid "response"
+msgstr ""
+
+#: apps/mental_health/models.py:102
+msgid "mental health user mental health response"
+msgstr ""
+
+#: apps/mental_health/models.py:103
+msgid "mental health user mental health responses"
+msgstr ""
+
+#: apps/modules/admin.py:101 apps/modules/models.py:146
+#: apps/users/models.py:180
+msgid "User"
+msgstr ""
+
+#: apps/modules/apps.py:7 apps/modules/models.py:33
+msgid "Modules"
+msgstr ""
+
+#: apps/modules/exceptions.py:11
+msgid ""
+"You have not yet started the education and have not completed any lessons."
+msgstr ""
+
+#: apps/modules/exceptions.py:16
+msgid "Previous lesson not completed."
+msgstr ""
+
+#: apps/modules/exceptions.py:21
+msgid "The module is currently closed."
+msgstr ""
+
+#: apps/modules/forms.py:70
+msgid "text_content"
+msgstr ""
+
+#: apps/modules/forms.py:80
+msgid "video_url"
+msgstr ""
+
+#: apps/modules/forms.py:90
+msgid "audio_url"
+msgstr ""
+
+#: apps/modules/forms.py:100
+msgid "quiz_fk"
+msgstr "Quiz"
+
+#: apps/modules/models.py:14 apps/quizzes/models.py:48
+msgid "Text"
+msgstr ""
+
+#: apps/modules/models.py:15
+msgid "Video"
+msgstr ""
+
+#: apps/modules/models.py:16
+msgid "Audio"
+msgstr ""
+
+#: apps/modules/models.py:17 apps/modules/models.py:73
+#: apps/quizzes/models.py:15
+msgid "Quiz"
+msgstr ""
+
+#: apps/modules/models.py:25
+msgid "is scored"
+msgstr ""
+
+#: apps/modules/models.py:26 apps/modules/models.py:96 apps/users/models.py:221
+#: apps/users/models.py:314
+msgid "is active"
+msgstr ""
+
+#: apps/modules/models.py:32 apps/modules/models.py:64
+msgid "Module"
+msgstr ""
+
+#: apps/modules/models.py:66
+msgid "content type"
+msgstr ""
+
+#: apps/modules/models.py:77
+msgid "video url"
+msgstr ""
+
+#: apps/modules/models.py:82 apps/modules/models.py:90
+msgid "Allowed formats"
+msgstr ""
+
+#: apps/modules/models.py:85
+msgid "audio url"
+msgstr ""
+
+#: apps/modules/models.py:93
+msgid "text content"
+msgstr ""
+
+#: apps/modules/models.py:102 apps/modules/models.py:152
+msgid "Lesson"
+msgstr ""
+
+#: apps/modules/models.py:103
+msgid "Lessons"
+msgstr ""
+
+#: apps/modules/models.py:154 apps/quizzes/models.py:153
+msgid "is completed"
+msgstr ""
+
+#: apps/modules/models.py:155
+msgid "completed at"
+msgstr ""
+
+#: apps/modules/models.py:158
+msgid "User Lesson Progress"
+msgstr ""
+
+#: apps/modules/models.py:159
+msgid "User Lesson Progresses"
+msgstr ""
+
+#: apps/quizzes/apps.py:7 apps/quizzes/models.py:16
+msgid "Quizzes"
+msgstr ""
+
+#: apps/quizzes/exceptions.py:8
+msgid "Previous quiz attempt not completed."
+msgstr ""
+
+#: apps/quizzes/exceptions.py:13
+#, fuzzy
+#| msgid "user__phone_already exists"
+msgid "Answer for this question already exists."
+msgstr "A user with this phone number already exists."
+
+#: apps/quizzes/exceptions.py:18
+msgid "Not all questions were answered."
+msgstr ""
+
+#: apps/quizzes/forms.py:31
+msgid "Questions of type SINGLE_CHOICE can have only one correct answer."
+msgstr ""
+
+#: apps/quizzes/forms.py:34
+msgid ""
+"Please select at least one correct answer (depending on the type of "
+"question)."
+msgstr ""
+
+#: apps/quizzes/models.py:36
+msgid "message"
+msgstr ""
+
+#: apps/quizzes/models.py:37
+msgid "is correct?"
+msgstr ""
+
+#: apps/quizzes/models.py:40
+msgid "Question result message"
+msgstr ""
+
+#: apps/quizzes/models.py:41
+msgid "Question result messages"
+msgstr ""
+
+#: apps/quizzes/models.py:49
+msgid "Multiple Choice"
+msgstr ""
+
+#: apps/quizzes/models.py:50
+msgid "Single Choice"
+msgstr ""
+
+#: apps/quizzes/models.py:54
+msgid "title"
+msgstr ""
+
+#: apps/quizzes/models.py:55
+msgid "question type"
+msgstr ""
+
+#: apps/quizzes/models.py:61 apps/quizzes/models.py:141
+msgid "quiz"
+msgstr ""
+
+#: apps/quizzes/models.py:67
+msgid "correct answer"
+msgstr "correct answer (message)"
+
+#: apps/quizzes/models.py:76
+msgid "incorrect answer"
+msgstr "incorrect answer (message)"
+
+#: apps/quizzes/models.py:83
+msgid "Question"
+msgstr ""
+
+#: apps/quizzes/models.py:84
+msgid "Questions"
+msgstr ""
+
+#: apps/quizzes/models.py:99 apps/quizzes/models.py:220
+msgid "is correct"
+msgstr ""
+
+#: apps/quizzes/models.py:105 apps/quizzes/models.py:204
+msgid "question"
+msgstr ""
+
+#: apps/quizzes/models.py:109
+msgid "Answer"
+msgstr ""
+
+#: apps/quizzes/models.py:110
+msgid "Answers"
+msgstr ""
+
+#: apps/quizzes/models.py:129 apps/users/models.py:204
+msgid "UID"
+msgstr ""
+
+#: apps/quizzes/models.py:148
+msgid "Context Lesson"
+msgstr ""
+
+#: apps/quizzes/models.py:152
+msgid "finished at"
+msgstr ""
+
+#: apps/quizzes/models.py:154
+msgid "is completed force"
+msgstr ""
+
+#: apps/quizzes/models.py:159
+msgid "Quiz Attempt"
+msgstr ""
+
+#: apps/quizzes/models.py:160
+msgid "Quiz Attempts"
+msgstr ""
+
+#: apps/quizzes/models.py:198
+msgid "user response"
+msgstr ""
+
+#: apps/quizzes/models.py:206
+msgid "response text"
+msgstr ""
+
+#: apps/quizzes/models.py:213
+msgid "selected choices"
+msgstr ""
+
+#: apps/quizzes/models.py:221
+msgid "points awarded"
+msgstr ""
+
+#: apps/quizzes/models.py:224
+msgid "User Response"
+msgstr ""
+
+#: apps/quizzes/models.py:225
+msgid "User Responses"
+msgstr ""
+
+#: apps/translations.py:3
+msgid "Select value"
+msgstr ""
+
+#: apps/translations.py:4
+msgid "Type to search"
+msgstr ""
+
+#: apps/translations.py:5
+msgid "No results found"
+msgstr ""
+
+#: apps/translations.py:6
+msgid ""
+"This page yielded into no results. Create a new item or reset your filters."
+msgstr ""
+
+#: apps/translations.py:7
+msgid "Filters"
+msgstr ""
+
+#: apps/translations.py:8
+msgid "Reset filters"
+msgstr ""
+
+#: apps/translations.py:9
+msgid "Clear"
+msgstr ""
+
+#: apps/translations.py:10
+msgid "Select action"
+msgstr ""
+
+#: apps/translations.py:11
+msgid "Date"
+msgstr ""
+
+#: apps/translations.py:12
+msgid "Choose file to upload"
+msgstr ""
+
+#: apps/translations.py:14
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user’s "
+"password, but you can change the password using <a href=\"{}\" class=\"text-"
+"primary-600 dark:text-primary-500\">this form</a>."
+msgstr ""
+
+#: apps/translations.py:17
+msgid "Apply Filters"
+msgstr ""
+
+#: apps/users/admin.py:21
+msgid "Export to CSV"
+msgstr ""
+
+#: apps/users/admin.py:93
+msgid "Personal info"
+msgstr ""
+
+#: apps/users/admin.py:108
+msgid "Important dates"
+msgstr ""
+
+#: apps/users/admin.py:117
+msgid "Permissions"
+msgstr ""
+
+#: apps/users/admin.py:133
+msgid "Send activation email"
+msgstr ""
+
+#: apps/users/admin.py:139
+msgid "Activation email sent"
+msgstr ""
+
+#: apps/users/admin.py:142
+msgid "Send chat invitation email"
+msgstr ""
+
+#: apps/users/admin.py:147 apps/users/tests.py:1031
+msgid "Chat invitation email sent"
+msgstr ""
+
+#: apps/users/admin.py:164 apps/users/models.py:232
+msgid "User Group"
+msgstr ""
+
+#: apps/users/admin.py:203
+msgid "Number of users in group"
+msgstr ""
+
+#: apps/users/api.py:140
+msgid "Your account has been successfully activated."
+msgstr ""
+
+#: apps/users/api.py:309
+msgid ""
+"If an account exists for this email, a password reset link has been sent."
+msgstr ""
+
+#: apps/users/api.py:329
+msgid "Your password has been successfully reset."
+msgstr ""
+
+#: apps/users/api.py:400 apps/users/tests.py:1160
+msgid "Account deleted successfully."
+msgstr ""
+
+#: apps/users/apps.py:8 apps/users/models.py:181
+msgid "Users"
+msgstr ""
+
+#: apps/users/exceptions.py:12
+msgid "A user with the provided data already exists."
+msgstr ""
+
+#: apps/users/exceptions.py:17 apps/users/tests.py:101
+#, fuzzy
+#| msgid "user__email_already_exists"
+msgid "A user with this email address already exists."
+msgstr "A user with this email address already exists."
+
+#: apps/users/exceptions.py:21 apps/users/tests.py:126
+#, fuzzy
+#| msgid "user__phone_already exists"
+msgid "A user with this phone number already exists."
+msgstr "A user with this phone number already exists."
+
+#: apps/users/exceptions.py:25 apps/users/tests.py:274
+msgid "Invalid credentials."
+msgstr ""
+
+#: apps/users/exceptions.py:30 apps/users/tests.py:292
+msgid "User is not active."
+msgstr ""
+
+#: apps/users/exceptions.py:35
+msgid "Invalid or expired activation link."
+msgstr ""
+
+#: apps/users/exceptions.py:40
+msgid "This password reset link has expired. Please request a new one."
+msgstr ""
+
+#: apps/users/exceptions.py:45
+msgid "User is already active."
+msgstr ""
+
+#: apps/users/exceptions.py:50
+msgid "The old password is incorrect."
+msgstr ""
+
+#: apps/users/exceptions.py:55
+msgid "User has not approved the requirements."
+msgstr ""
+
+#: apps/users/models.py:15
+msgid "Female"
+msgstr ""
+
+#: apps/users/models.py:16
+msgid "Male"
+msgstr ""
+
+#: apps/users/models.py:17
+msgid "Non-binary / Other"
+msgstr ""
+
+#: apps/users/models.py:18 apps/users/models.py:39 apps/users/models.py:46
+#: apps/users/models.py:59
+msgid "Prefer not to say"
+msgstr ""
+
+#: apps/users/models.py:22
+msgid "Under 24"
+msgstr ""
+
+#: apps/users/models.py:23
+msgid "25-44"
+msgstr ""
+
+#: apps/users/models.py:24
+msgid "45+"
+msgstr ""
+
+#: apps/users/models.py:29
+msgid "General"
+msgstr ""
+
+#: apps/users/models.py:35
+msgid "Yes, under 5 years"
+msgstr ""
+
+#: apps/users/models.py:36
+msgid "Yes, 6-18 years"
+msgstr ""
+
+#: apps/users/models.py:37
+msgid "Yes, 18+"
+msgstr ""
+
+#: apps/users/models.py:38
+msgid "No"
+msgstr ""
+
+#: apps/users/models.py:43
+msgid "In a relationship / Married"
+msgstr ""
+
+#: apps/users/models.py:44
+msgid "Not in a relationship"
+msgstr ""
+
+#: apps/users/models.py:45
+msgid "Divorcing / Divorced"
+msgstr ""
+
+#: apps/users/models.py:50
+msgid "Mental health and self-care"
+msgstr ""
+
+#: apps/users/models.py:51
+msgid "Relationships and family"
+msgstr ""
+
+#: apps/users/models.py:52
+msgid "Parenting"
+msgstr ""
+
+#: apps/users/models.py:53
+msgid "Self-development and learning"
+msgstr ""
+
+#: apps/users/models.py:54
+msgid "Work / Career"
+msgstr ""
+
+#: apps/users/models.py:55
+msgid "Creativity"
+msgstr ""
+
+#: apps/users/models.py:56
+msgid "Physical health and movement"
+msgstr ""
+
+#: apps/users/models.py:57
+msgid "Spirituality / Meanings"
+msgstr ""
+
+#: apps/users/models.py:58
+msgid "Rest and hobbies"
+msgstr ""
+
+#: apps/users/models.py:107
+msgid "first name"
+msgstr "First Name"
+
+#: apps/users/models.py:108
+msgid "last name"
+msgstr "Last Name"
+
+#: apps/users/models.py:109
+msgid "email address"
+msgstr "Email"
+
+#: apps/users/models.py:110
+msgid "phone number"
+msgstr "Phone"
+
+#: apps/users/models.py:114
+msgid "gender"
+msgstr ""
+
+#: apps/users/models.py:121
+msgid "age group"
+msgstr ""
+
+#: apps/users/models.py:129
+msgid "country"
+msgstr ""
+
+#: apps/users/models.py:136
+msgid "city"
+msgstr ""
+
+#: apps/users/models.py:143
+msgid "children"
+msgstr ""
+
+#: apps/users/models.py:150
+msgid "family status"
+msgstr ""
+
+#: apps/users/models.py:160
+msgid "interests"
+msgstr ""
+
+#: apps/users/models.py:163
+msgid "other interests"
+msgstr ""
+
+#: apps/users/models.py:168
+msgid "has approved requirements"
+msgstr ""
+
+#: apps/users/models.py:171 apps/users/models.py:285
+msgid "date joined"
+msgstr "Date Joined"
+
+#: apps/users/models.py:210
+msgid "users"
+msgstr ""
+
+#: apps/users/models.py:212
+msgid "Select active users for this group."
+msgstr ""
+
+#: apps/users/models.py:215
+msgid "label"
+msgstr ""
+
+#: apps/users/models.py:219
+msgid "For internal use only. This label is not displayed on the user page"
+msgstr ""
+
+#: apps/users/models.py:222
+msgid "registration started at"
+msgstr ""
+
+#: apps/users/models.py:223
+msgid "registration finished at"
+msgstr ""
+
+#: apps/users/models.py:224
+msgid "course started at"
+msgstr ""
+
+#: apps/users/models.py:226
+msgid "Opening interval in days"
+msgstr ""
+
+#: apps/users/models.py:227
+msgid ""
+"Value for the interval (in days) for opening modules for the current group"
+msgstr ""
+
+#: apps/users/models.py:233
+msgid "User Groups"
+msgstr ""
+
+#: apps/users/models.py:244
+msgid "Registration finish date must be after start date."
+msgstr ""
+
+#: apps/users/models.py:250
+msgid "At least one user group should be active."
+msgstr ""
+
+#: apps/users/models.py:255
+msgid "Active group must have a registration finished date set."
+msgstr ""
+
+#: apps/users/models.py:258
+msgid ""
+"Cannot mark group as active because registration time has already passed."
+msgstr ""
+
+#: apps/users/models.py:277 apps/users/models.py:301
+msgid "group"
+msgstr ""
+
+#: apps/users/models.py:288
+msgid "Group Membership"
+msgstr ""
+
+#: apps/users/models.py:289
+msgid "Group Memberships"
+msgstr ""
+
+#: apps/users/models.py:306
+msgid "audience"
+msgstr ""
+
+#: apps/users/models.py:311
+msgid "chat title"
+msgstr ""
+
+#: apps/users/models.py:312
+msgid "invite link"
+msgstr ""
+
+#: apps/users/models.py:313
+msgid "custom invite message"
+msgstr ""
+
+#: apps/users/models.py:319 templates/emails/chat_invitation_email.html:7
+msgid "Chat Invitation"
+msgstr ""
+
+#: apps/users/models.py:320
+msgid "Chat Invitations"
+msgstr ""
+
+#: apps/users/models.py:333
+msgid "A group must be selected for age-specific chat invitations."
+msgstr ""
+
+#: apps/users/models.py:344
+msgid "A general chat invitation without a specific group already exists."
+msgstr ""
+
+#: apps/users/models.py:360
+#, fuzzy
+#| msgid "email address"
+msgid "IP address"
+msgstr "Email"
+
+#: apps/users/models.py:361
+#, fuzzy
+#| msgid "last name"
+msgid "OS name"
+msgstr "Last Name"
+
+#: apps/users/models.py:362
+msgid "browser"
+msgstr ""
+
+#: apps/users/models.py:363
+msgid "device type"
+msgstr ""
+
+#: apps/users/models.py:364
+msgid "raw user agent"
+msgstr ""
+
+#: apps/users/models.py:368
+msgid "User Device Log"
+msgstr ""
+
+#: apps/users/models.py:369
+msgid "User Device Logs"
+msgstr ""
+
+#: apps/users/schemas.py:101
+#, fuzzy
+#| msgid "phone number"
+msgid "Invalid phone number"
+msgstr "Phone"
+
+#: apps/users/schemas.py:106
+msgid "Invalid phone number format"
+msgstr ""
+
+#: apps/users/schemas.py:184
+msgid "Passwords do not match"
+msgstr ""
+
+#: apps/users/schemas.py:221
+msgid "Provide old password, new password and confirmation"
+msgstr ""
+
+#: apps/users/schemas.py:223
+msgid "New password and confirmation do not match"
+msgstr ""
+
+#: apps/users/utils.py:119
+msgid "You are not member of any group."
+msgstr ""
+
+#: apps/users/utils.py:222
+msgid "Activate your account"
+msgstr ""
+
+#: apps/users/utils.py:243
+msgid "Reset your password"
+msgstr ""
+
+#: apps/users/utils.py:263
+msgid "Your SOULVIA chat invitation"
+msgstr ""
+
+#: config/settings.py:154
+msgid "English"
+msgstr ""
+
+#: config/settings.py:155
+msgid "Ukrainian"
+msgstr ""
+
+#: mixins/exceptions.py:6 mixins/handlers.py:27
+msgid "An internal error occurred."
+msgstr ""
+
+#: mixins/handlers.py:43
+msgid "Duplicate entry."
+msgstr ""
+
+#: templates/emails/activation_email.html:7
+msgid "Account Activation"
+msgstr ""
+
+#: templates/emails/activation_email.html:24
+#, python-format
+msgid "Welcome, %(first_name)s"
+msgstr ""
+
+#: templates/emails/activation_email.html:31
+msgid "Thank you for registering"
+msgstr ""
+
+#: templates/emails/activation_email.html:31
+msgid ""
+"To complete your registration and activate your account, please click the "
+"button below"
+msgstr ""
+
+#: templates/emails/activation_email.html:39
+msgid "Activate Account"
+msgstr ""
+
+#: templates/emails/activation_email.html:51
+msgid "If you didn't create an account, you can safely ignore this email"
+msgstr ""
+
+#: templates/emails/chat_invitation_email.html:24
+#: templates/emails/password_reset_email.html:24
+#, python-format
+msgid "Hello, %(first_name)s"
+msgstr ""
+
+#: templates/emails/chat_invitation_email.html:31
+msgid ""
+"Your account is now active. Join your SOULVIA chat group using the "
+"invitation below."
+msgstr ""
+
+#: templates/emails/chat_invitation_email.html:42
+msgid "Join your group chat"
+msgstr ""
+
+#: templates/emails/chat_invitation_email.html:50
+msgid "You can also join the main SOULVIA channel:"
+msgstr ""
+
+#: templates/emails/chat_invitation_email.html:66
+msgid "If this email reached you by mistake, you can ignore it."
+msgstr ""
+
+#: templates/emails/password_reset_email.html:7
+msgid "Password Reset"
+msgstr ""
+
+#: templates/emails/password_reset_email.html:31
+msgid ""
+"You are receiving this email because we received a password reset request "
+"for your account."
+msgstr ""
+
+#: templates/emails/password_reset_email.html:34
+msgid ""
+"To reset your password, click the button below and follow the instructions."
+msgstr ""
+
+#: templates/emails/password_reset_email.html:42
+msgid "Reset Password"
+msgstr ""
+
+#: templates/emails/password_reset_email.html:49
+msgid "This link will expire in 1 hour."
+msgstr ""
+
+#: templates/emails/password_reset_email.html:61
+msgid ""
+"If you didn't request a password reset, you can safely ignore this email."
+msgstr ""
+
+#, fuzzy, python-format
+#~| msgid "first name"
+#~ msgid "Hi, %(first_name)s"
+#~ msgstr "First Name"

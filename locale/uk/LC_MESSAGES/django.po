@@ -1,0 +1,1057 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 22:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: apps/homeworks/api.py:69 apps/homeworks/api.py:119
+#: apps/homeworks/models.py:103
+msgid ""
+"Please provide either a text answer or a file answer for current homework."
+msgstr ""
+"Будь ласка надайте Ваше вирішення у текстовому форматі або у форматі файлу."
+
+#: apps/homeworks/apps.py:7 apps/homeworks/models.py:26
+msgid "Homeworks"
+msgstr "Домашні завдання"
+
+#: apps/homeworks/exceptions.py:8
+msgid "User submission already exists."
+msgstr "Користувач вже відправив своє вирішення домашнього завдання."
+
+#: apps/homeworks/forms.py:22 apps/modules/forms.py:62
+#, python-brace-format
+msgid "{field} is required for {content_type}."
+msgstr "{field} є обовʼязковим для {content_type}."
+
+#: apps/homeworks/forms.py:23
+msgid "homeworks"
+msgstr "Домашні завдання"
+
+#: apps/homeworks/models.py:14 apps/modules/models.py:22
+#: apps/modules/models.py:59 apps/quizzes/models.py:11
+msgid "name"
+msgstr "Імʼя"
+
+#: apps/homeworks/models.py:15 apps/modules/models.py:23
+#: apps/modules/models.py:92 apps/quizzes/models.py:12
+msgid "description"
+msgstr "Опис"
+
+#: apps/homeworks/models.py:20
+msgid "lesson"
+msgstr "Урок"
+
+#: apps/homeworks/models.py:22
+msgid "is auto-approved"
+msgstr "Є автоматичне зарахування"
+
+#: apps/homeworks/models.py:25 apps/modules/models.py:18
+msgid "Homework"
+msgstr "Домашнє завдання"
+
+#: apps/homeworks/models.py:37 apps/quizzes/models.py:135
+#: apps/users/models.py:283 apps/users/models.py:358
+msgid "user"
+msgstr "Користувач"
+
+#: apps/homeworks/models.py:43
+msgid "homework"
+msgstr "Домашнє завдання"
+
+#: apps/homeworks/models.py:45
+msgid "answer"
+msgstr "Відповідь"
+
+#: apps/homeworks/models.py:47
+msgid "file answer"
+msgstr "Файл"
+
+#: apps/homeworks/models.py:53
+msgid "feedback"
+msgstr "Зворотній звʼязок"
+
+#: apps/homeworks/models.py:54
+msgid "is approved"
+msgstr "Затверджено"
+
+#: apps/homeworks/models.py:55
+msgid "date sent"
+msgstr "Дата відправлення"
+
+#: apps/homeworks/models.py:56
+msgid "date reviewed"
+msgstr "Дата перегляду"
+
+#: apps/homeworks/models.py:57 apps/users/models.py:316
+msgid "updated at"
+msgstr "Оновлено о"
+
+#: apps/homeworks/models.py:60
+msgid "User Homework"
+msgstr "Домашнє завдання користувача"
+
+#: apps/homeworks/models.py:61
+msgid "User Homeworks"
+msgstr "Домашні завдання користувача"
+
+#: apps/mental_health/apps.py:7 apps/mental_health/models.py:14
+#: apps/mental_health/models.py:15
+msgid "Mental Health"
+msgstr "Ментальне здоров'я"
+
+#: apps/mental_health/exceptions.py:8
+msgid "No response was provided in the first iteration."
+msgstr "У першій ітерації не було надано відповіді."
+
+#: apps/mental_health/exceptions.py:13
+msgid "For the second iteration of the test, education must be completed."
+msgstr "Для другої ітерації тесту навчання має бути завершено."
+
+#: apps/mental_health/models.py:10
+msgid "Title"
+msgstr "Назва"
+
+#: apps/mental_health/models.py:11
+msgid "Additional Content"
+msgstr "Додаткова інформація"
+
+#: apps/mental_health/models.py:22
+msgid "question text"
+msgstr "Питання"
+
+#: apps/mental_health/models.py:23
+msgid "minimum score"
+msgstr "Мінімальна оцінка"
+
+#: apps/mental_health/models.py:24
+msgid "maximum score"
+msgstr "Максимальна оцінка"
+
+#: apps/mental_health/models.py:25 apps/modules/models.py:24
+#: apps/modules/models.py:95 apps/quizzes/models.py:56
+#: apps/quizzes/models.py:100
+msgid "order"
+msgstr "Порядок"
+
+#: apps/mental_health/models.py:30 apps/mental_health/models.py:62
+#: apps/mental_health/models.py:68 apps/mental_health/models.py:90
+#: apps/mental_health/models.py:96
+msgid "mental health"
+msgstr "Ментальне здоров'я"
+
+#: apps/mental_health/models.py:34
+msgid "mental health question"
+msgstr "Питання про ментальне здоров'я"
+
+#: apps/mental_health/models.py:35
+msgid "mental health questions"
+msgstr "Питання про ментальне здоров'я"
+
+#: apps/mental_health/models.py:50
+msgid "Before start education"
+msgstr "До початку навчання"
+
+#: apps/mental_health/models.py:51
+msgid "After finish education"
+msgstr "Після завершення навчання"
+
+#: apps/mental_health/models.py:55
+msgid "number"
+msgstr "Етап проходження"
+
+#: apps/mental_health/models.py:56 apps/modules/models.py:94
+#: apps/quizzes/models.py:150 apps/users/models.py:111
+msgid "score"
+msgstr "Оцінка"
+
+#: apps/mental_health/models.py:57 apps/mental_health/models.py:99
+#: apps/quizzes/models.py:151 apps/users/models.py:315 apps/users/models.py:365
+msgid "created at"
+msgstr "Створено о"
+
+#: apps/mental_health/models.py:72
+msgid "mental health attempt"
+msgstr "Рішення тесту ментального здоров'я"
+
+#: apps/mental_health/models.py:73
+msgid "mental health attempts"
+msgstr "Рішення тесту ментального здоров'я"
+
+#: apps/mental_health/models.py:98 apps/quizzes/models.py:98
+msgid "response"
+msgstr "Відповідь"
+
+#: apps/mental_health/models.py:102
+msgid "mental health user mental health response"
+msgstr "Відповідь користувача на тест про ментальне здоров'я"
+
+#: apps/mental_health/models.py:103
+msgid "mental health user mental health responses"
+msgstr "Відповіді користувача на тест про ментальне здоров'я"
+
+#: apps/modules/admin.py:101 apps/modules/models.py:146
+#: apps/users/models.py:180
+msgid "User"
+msgstr "Користувач"
+
+#: apps/modules/apps.py:7 apps/modules/models.py:33
+msgid "Modules"
+msgstr "Модулі"
+
+#: apps/modules/exceptions.py:11
+msgid ""
+"You have not yet started the education and have not completed any lessons."
+msgstr "Ви ще не розпочали навчання та не завершили жоден урок."
+
+#: apps/modules/exceptions.py:16
+msgid "Previous lesson not completed."
+msgstr "Попередній урок не завершено."
+
+#: apps/modules/exceptions.py:21
+msgid "The module is currently closed."
+msgstr "Модуль наразі закритий."
+
+#: apps/modules/forms.py:70
+msgid "text_content"
+msgstr "Текстове наповнення"
+
+#: apps/modules/forms.py:80
+msgid "video_url"
+msgstr "Відео (url)"
+
+#: apps/modules/forms.py:90
+msgid "audio_url"
+msgstr "Аудіо (url)"
+
+#: apps/modules/forms.py:100
+msgid "quiz_fk"
+msgstr "Квіз"
+
+#: apps/modules/models.py:14 apps/quizzes/models.py:48
+msgid "Text"
+msgstr "Текст"
+
+#: apps/modules/models.py:15
+msgid "Video"
+msgstr "Відео"
+
+#: apps/modules/models.py:16
+msgid "Audio"
+msgstr "Аудіо"
+
+#: apps/modules/models.py:17 apps/modules/models.py:73
+#: apps/quizzes/models.py:15
+msgid "Quiz"
+msgstr "Квіз"
+
+#: apps/modules/models.py:25
+msgid "is scored"
+msgstr "Оцінка"
+
+#: apps/modules/models.py:26 apps/modules/models.py:96 apps/users/models.py:221
+#: apps/users/models.py:314
+msgid "is active"
+msgstr "Активний"
+
+#: apps/modules/models.py:32 apps/modules/models.py:64
+msgid "Module"
+msgstr "Модуль"
+
+#: apps/modules/models.py:66
+msgid "content type"
+msgstr "Тип контенту"
+
+#: apps/modules/models.py:77
+msgid "video url"
+msgstr "Відео (url)"
+
+#: apps/modules/models.py:82 apps/modules/models.py:90
+msgid "Allowed formats"
+msgstr "Допустимі формати"
+
+#: apps/modules/models.py:85
+msgid "audio url"
+msgstr "Аудіо (url)"
+
+#: apps/modules/models.py:93
+msgid "text content"
+msgstr "Текстове наповнення"
+
+#: apps/modules/models.py:102 apps/modules/models.py:152
+msgid "Lesson"
+msgstr "Урок"
+
+#: apps/modules/models.py:103
+msgid "Lessons"
+msgstr "Уроки"
+
+#: apps/modules/models.py:154 apps/quizzes/models.py:153
+msgid "is completed"
+msgstr "Завершено"
+
+#: apps/modules/models.py:155
+msgid "completed at"
+msgstr "Завершено о"
+
+#: apps/modules/models.py:158
+msgid "User Lesson Progress"
+msgstr "Прогрес проходження уроків користувача"
+
+#: apps/modules/models.py:159
+msgid "User Lesson Progresses"
+msgstr "Прогрес проходження уроків користувача"
+
+#: apps/quizzes/apps.py:7 apps/quizzes/models.py:16
+msgid "Quizzes"
+msgstr "Квізи"
+
+#: apps/quizzes/exceptions.py:8
+msgid "Previous quiz attempt not completed."
+msgstr "Попередня спроба проходження квізу не завершена."
+
+#: apps/quizzes/exceptions.py:13
+msgid "Answer for this question already exists."
+msgstr "Відповідь на це питання вже існує."
+
+#: apps/quizzes/exceptions.py:18
+msgid "Not all questions were answered."
+msgstr "Не на всі питання було надано відповідь."
+
+#: apps/quizzes/forms.py:31
+msgid "Questions of type SINGLE_CHOICE can have only one correct answer."
+msgstr "Питання типу 'Один вибір' можуть мати лише одну правильну відповідь."
+
+#: apps/quizzes/forms.py:34
+msgid ""
+"Please select at least one correct answer (depending on the type of "
+"question)."
+msgstr ""
+"Будь ласка, виберіть принаймні одну правильну відповідь (в залежності від "
+"типу питання)."
+
+#: apps/quizzes/models.py:36
+msgid "message"
+msgstr "Повідомлення"
+
+#: apps/quizzes/models.py:37
+msgid "is correct?"
+msgstr "Правильна відповідь"
+
+#: apps/quizzes/models.py:40
+msgid "Question result message"
+msgstr "Повідомлення результату питання"
+
+#: apps/quizzes/models.py:41
+msgid "Question result messages"
+msgstr "Повідомлення результатів питань"
+
+#: apps/quizzes/models.py:49
+msgid "Multiple Choice"
+msgstr "Декілька виборів"
+
+#: apps/quizzes/models.py:50
+msgid "Single Choice"
+msgstr "Один вибір"
+
+#: apps/quizzes/models.py:54
+msgid "title"
+msgstr "Назва"
+
+#: apps/quizzes/models.py:55
+msgid "question type"
+msgstr "Тип питання"
+
+#: apps/quizzes/models.py:61 apps/quizzes/models.py:141
+msgid "quiz"
+msgstr "Квіз"
+
+#: apps/quizzes/models.py:67
+msgid "correct answer"
+msgstr "Правильна відповідь (текстове повідомлення у користувача)"
+
+#: apps/quizzes/models.py:76
+msgid "incorrect answer"
+msgstr "Неправильна відповідь (текстове повідомлення у користувача)"
+
+#: apps/quizzes/models.py:83
+msgid "Question"
+msgstr "Питання"
+
+#: apps/quizzes/models.py:84
+msgid "Questions"
+msgstr "Питання"
+
+#: apps/quizzes/models.py:99 apps/quizzes/models.py:220
+msgid "is correct"
+msgstr "Правильно"
+
+#: apps/quizzes/models.py:105 apps/quizzes/models.py:204
+msgid "question"
+msgstr "Питання"
+
+#: apps/quizzes/models.py:109
+msgid "Answer"
+msgstr "Відповідь"
+
+#: apps/quizzes/models.py:110
+msgid "Answers"
+msgstr "Відповіді"
+
+#: apps/quizzes/models.py:129 apps/users/models.py:204
+msgid "UID"
+msgstr ""
+
+#: apps/quizzes/models.py:148
+msgid "Context Lesson"
+msgstr "Контекст Уроку"
+
+#: apps/quizzes/models.py:152
+msgid "finished at"
+msgstr "Завершено о"
+
+#: apps/quizzes/models.py:154
+msgid "is completed force"
+msgstr "Завершено примусово"
+
+#: apps/quizzes/models.py:159
+msgid "Quiz Attempt"
+msgstr "Спроба пройти квіз"
+
+#: apps/quizzes/models.py:160
+msgid "Quiz Attempts"
+msgstr "Спроби пройти квіз"
+
+#: apps/quizzes/models.py:198
+msgid "user response"
+msgstr "Відповідь користувача"
+
+#: apps/quizzes/models.py:206
+msgid "response text"
+msgstr "Текстова відповідь"
+
+#: apps/quizzes/models.py:213
+msgid "selected choices"
+msgstr "Вибрані варіанти"
+
+#: apps/quizzes/models.py:221
+msgid "points awarded"
+msgstr "Нараховані бали"
+
+#: apps/quizzes/models.py:224
+msgid "User Response"
+msgstr "Відповідь користувача"
+
+#: apps/quizzes/models.py:225
+msgid "User Responses"
+msgstr "Відповіді користувача"
+
+#: apps/translations.py:3
+msgid "Select value"
+msgstr "Виберіть значення"
+
+#: apps/translations.py:4
+msgid "Type to search"
+msgstr "Введіть для пошуку"
+
+#: apps/translations.py:5
+msgid "No results found"
+msgstr "Результатів не знайдено"
+
+#: apps/translations.py:6
+msgid ""
+"This page yielded into no results. Create a new item or reset your filters."
+msgstr ""
+"Ця сторінка не дала результатів. Створіть новий елемент або скиньте фільтри."
+
+#: apps/translations.py:7
+msgid "Filters"
+msgstr "Фільтри"
+
+#: apps/translations.py:8
+msgid "Reset filters"
+msgstr "Скинути фільтри"
+
+#: apps/translations.py:9
+msgid "Clear"
+msgstr "Очистити"
+
+#: apps/translations.py:10
+msgid "Select action"
+msgstr "Виберіть дію"
+
+#: apps/translations.py:11
+msgid "Date"
+msgstr "Дата"
+
+#: apps/translations.py:12
+msgid "Choose file to upload"
+msgstr "Оберіть файл для загрузки"
+
+#: apps/translations.py:14
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user’s "
+"password, but you can change the password using <a href=\"{}\" class=\"text-"
+"primary-600 dark:text-primary-500\">this form</a>."
+msgstr ""
+"Сирі паролі не зберігаються, тому немає можливості побачити пароль цього "
+"користувача, але ви можете змінити пароль за допомогою <a href=\"{}\" "
+"class=\"text-primary-600 dark:text-primary-500\">цієї форми</a>."
+
+#: apps/translations.py:17
+msgid "Apply Filters"
+msgstr "Застосувати фільтри"
+
+#: apps/users/admin.py:21
+msgid "Export to CSV"
+msgstr "Експорт у CSV"
+
+#: apps/users/admin.py:93
+msgid "Personal info"
+msgstr "Особиста інформація"
+
+#: apps/users/admin.py:108
+msgid "Important dates"
+msgstr "Важливі дати"
+
+#: apps/users/admin.py:117
+msgid "Permissions"
+msgstr "Дозволи"
+
+#: apps/users/admin.py:133
+msgid "Send activation email"
+msgstr "Надіслати email для активації"
+
+#: apps/users/admin.py:139
+msgid "Activation email sent"
+msgstr "Email для активації було надіслано"
+
+#: apps/users/admin.py:142
+msgid "Send chat invitation email"
+msgstr "Надіслати email для запрошення в чат"
+
+#: apps/users/admin.py:147 apps/users/tests.py:1031
+msgid "Chat invitation email sent"
+msgstr "Email для запрошення в чат було надіслано"
+
+#: apps/users/admin.py:164 apps/users/models.py:232
+msgid "User Group"
+msgstr "Група користувачів"
+
+#: apps/users/admin.py:203
+msgid "Number of users in group"
+msgstr "Кількість користувачів у групі"
+
+#: apps/users/api.py:140
+msgid "Your account has been successfully activated."
+msgstr "Ваш обліковий запис успішно активовано."
+
+#: apps/users/api.py:309
+msgid ""
+"If an account exists for this email, a password reset link has been sent."
+msgstr ""
+"Якщо акаунт із такою електронною поштою існує, то посилання для скидання "
+"пароля було надіслано."
+
+#: apps/users/api.py:329
+msgid "Your password has been successfully reset."
+msgstr "Ваш пароль було успішно скинуто."
+
+#: apps/users/api.py:400 apps/users/tests.py:1160
+msgid "Account deleted successfully."
+msgstr "Ваш обліковий запис видалено успішно."
+
+#: apps/users/apps.py:8 apps/users/models.py:181
+msgid "Users"
+msgstr "Користувачі"
+
+#: apps/users/exceptions.py:12
+msgid "A user with the provided data already exists."
+msgstr "Користувач із вказаними даними вже існує."
+
+#: apps/users/exceptions.py:17 apps/users/tests.py:101
+msgid "A user with this email address already exists."
+msgstr "Користувач із вказаною email адресою вже існує."
+
+#: apps/users/exceptions.py:21 apps/users/tests.py:126
+msgid "A user with this phone number already exists."
+msgstr "Користувач із вказаним номером телефону вже існує."
+
+#: apps/users/exceptions.py:25 apps/users/tests.py:274
+msgid "Invalid credentials."
+msgstr "Недійсні облікові дані."
+
+#: apps/users/exceptions.py:30 apps/users/tests.py:292
+msgid "User is not active."
+msgstr "Користувач не активний."
+
+#: apps/users/exceptions.py:35
+msgid "Invalid or expired activation link."
+msgstr "Недійсне або прострочене посилання для активації."
+
+#: apps/users/exceptions.py:40
+msgid "This password reset link has expired. Please request a new one."
+msgstr ""
+"Це посилання для скидання пароля минуло термін дії. Будь ласка, запросіть "
+"нове."
+
+#: apps/users/exceptions.py:45
+msgid "User is already active."
+msgstr "Користувач вже активний."
+
+#: apps/users/exceptions.py:50
+msgid "The old password is incorrect."
+msgstr "Старий пароль неправильний."
+
+#: apps/users/exceptions.py:55
+msgid "User has not approved the requirements."
+msgstr "Користувач не погодився з умовами."
+
+#: apps/users/models.py:15
+msgid "Female"
+msgstr "Жіноча"
+
+#: apps/users/models.py:16
+msgid "Male"
+msgstr "Чоловіча"
+
+#: apps/users/models.py:17
+msgid "Non-binary / Other"
+msgstr "Небінарна / Інша"
+
+#: apps/users/models.py:18 apps/users/models.py:39 apps/users/models.py:46
+#: apps/users/models.py:59
+msgid "Prefer not to say"
+msgstr "Віддаю перевагу не відповідати"
+
+#: apps/users/models.py:22
+msgid "Under 24"
+msgstr "До 24 років"
+
+#: apps/users/models.py:23
+msgid "25-44"
+msgstr "25-44"
+
+#: apps/users/models.py:24
+msgid "45+"
+msgstr "45+"
+
+#: apps/users/models.py:29
+msgid "General"
+msgstr "Загальний"
+
+#: apps/users/models.py:35
+msgid "Yes, under 5 years"
+msgstr "Так, до 5 років"
+
+#: apps/users/models.py:36
+msgid "Yes, 6-18 years"
+msgstr "Так, 6-18 років"
+
+#: apps/users/models.py:37
+msgid "Yes, 18+"
+msgstr "Так, 18+"
+
+#: apps/users/models.py:38
+msgid "No"
+msgstr "Ні"
+
+#: apps/users/models.py:43
+msgid "In a relationship / Married"
+msgstr "У стосунках / Одружений(-а)"
+
+#: apps/users/models.py:44
+msgid "Not in a relationship"
+msgstr "Не у стосунках"
+
+#: apps/users/models.py:45
+msgid "Divorcing / Divorced"
+msgstr "У процесі розлучення / Розлучений(-а)"
+
+#: apps/users/models.py:50
+msgid "Mental health and self-care"
+msgstr "Ментальне здоров'я та самопідтримка"
+
+#: apps/users/models.py:51
+msgid "Relationships and family"
+msgstr "Стосунки та сім'я"
+
+#: apps/users/models.py:52
+msgid "Parenting"
+msgstr "Виховання дітей"
+
+#: apps/users/models.py:53
+msgid "Self-development and learning"
+msgstr "Саморозвиток та навчання"
+
+#: apps/users/models.py:54
+msgid "Work / Career"
+msgstr "Робота / Кар'єра"
+
+#: apps/users/models.py:55
+msgid "Creativity"
+msgstr "Творчість"
+
+#: apps/users/models.py:56
+msgid "Physical health and movement"
+msgstr "Фізичне здоров'я та рух"
+
+#: apps/users/models.py:57
+msgid "Spirituality / Meanings"
+msgstr "Духовність / Сенси"
+
+#: apps/users/models.py:58
+msgid "Rest and hobbies"
+msgstr "Відпочинок та хобі"
+
+#: apps/users/models.py:107
+msgid "first name"
+msgstr "Імʼя"
+
+#: apps/users/models.py:108
+msgid "last name"
+msgstr "Прізвище"
+
+#: apps/users/models.py:109
+msgid "email address"
+msgstr "Email адреса"
+
+#: apps/users/models.py:110
+msgid "phone number"
+msgstr "Номер телефону"
+
+#: apps/users/models.py:114
+msgid "gender"
+msgstr "Стать"
+
+#: apps/users/models.py:121
+msgid "age group"
+msgstr "Вікова група"
+
+#: apps/users/models.py:129
+msgid "country"
+msgstr "Країна"
+
+#: apps/users/models.py:136
+msgid "city"
+msgstr "Місто"
+
+#: apps/users/models.py:143
+msgid "children"
+msgstr "Діти"
+
+#: apps/users/models.py:150
+msgid "family status"
+msgstr "Сімейний стан"
+
+#: apps/users/models.py:160
+msgid "interests"
+msgstr "Інтереси"
+
+#: apps/users/models.py:163
+msgid "other interests"
+msgstr "Інше"
+
+#: apps/users/models.py:168
+msgid "has approved requirements"
+msgstr "Погодився з вимогами"
+
+#: apps/users/models.py:171 apps/users/models.py:285
+msgid "date joined"
+msgstr "Дата приєднання"
+
+#: apps/users/models.py:210
+msgid "users"
+msgstr "Користувачі"
+
+#: apps/users/models.py:212
+msgid "Select active users for this group."
+msgstr "Виберіть активних користувачів для цієї групи."
+
+#: apps/users/models.py:215
+msgid "label"
+msgstr "Мітка"
+
+#: apps/users/models.py:219
+msgid "For internal use only. This label is not displayed on the user page"
+msgstr ""
+"Тільки для внутрішнього використання. Ця мітка не відображається на сторінці "
+"користувача"
+
+#: apps/users/models.py:222
+msgid "registration started at"
+msgstr "Дата початку реєстрації"
+
+#: apps/users/models.py:223
+msgid "registration finished at"
+msgstr "Дата завершення реєстрації"
+
+#: apps/users/models.py:224
+msgid "course started at"
+msgstr "Дата початку курсу"
+
+#: apps/users/models.py:226
+msgid "Opening interval in days"
+msgstr "Інтервал відкриття (у днях)"
+
+#: apps/users/models.py:227
+msgid ""
+"Value for the interval (in days) for opening modules for the current group"
+msgstr "Значення інтервалу (у днях) для відкриття модулів для поточної групи"
+
+#: apps/users/models.py:233
+msgid "User Groups"
+msgstr "Групи користувачів"
+
+#: apps/users/models.py:244
+msgid "Registration finish date must be after start date."
+msgstr "Дата закінчення реєстрації повинна бути пізніше дати початку."
+
+#: apps/users/models.py:250
+msgid "At least one user group should be active."
+msgstr "Принаймні одна група користувачів повинна бути активною."
+
+#: apps/users/models.py:255
+msgid "Active group must have a registration finished date set."
+msgstr "Активна група повинна мати встановлену дату закінчення реєстрації."
+
+#: apps/users/models.py:258
+msgid ""
+"Cannot mark group as active because registration time has already passed."
+msgstr ""
+"Неможливо позначити групу як активну, оскільки термін реєстрації вже минув."
+
+#: apps/users/models.py:277 apps/users/models.py:301
+msgid "group"
+msgstr "Група"
+
+#: apps/users/models.py:288
+msgid "Group Membership"
+msgstr "Членство в групі"
+
+#: apps/users/models.py:289
+msgid "Group Memberships"
+msgstr "Членство в групі"
+
+#: apps/users/models.py:306
+msgid "audience"
+msgstr "Аудиторія"
+
+#: apps/users/models.py:311
+msgid "chat title"
+msgstr "Назва чату"
+
+#: apps/users/models.py:312
+msgid "invite link"
+msgstr "Посилання для запрошення"
+
+#: apps/users/models.py:313
+msgid "custom invite message"
+msgstr "Повідомлення для запрошення"
+
+#: apps/users/models.py:319 templates/emails/chat_invitation_email.html:7
+msgid "Chat Invitation"
+msgstr "Запрошення в чат"
+
+#: apps/users/models.py:320
+msgid "Chat Invitations"
+msgstr "Запрошення в чати"
+
+#: apps/users/models.py:333
+msgid "A group must be selected for age-specific chat invitations."
+msgstr "Для чатів, специфічних для віку, має бути обрана група."
+
+#: apps/users/models.py:344
+msgid "A general chat invitation without a specific group already exists."
+msgstr "Загальне запрошення в чат без специфічної групи вже існує."
+
+#: apps/users/models.py:360
+msgid "IP address"
+msgstr "IP"
+
+#: apps/users/models.py:361
+msgid "OS name"
+msgstr "ОС"
+
+#: apps/users/models.py:362
+msgid "browser"
+msgstr "Браузер"
+
+#: apps/users/models.py:363
+msgid "device type"
+msgstr "Тип контенту"
+
+#: apps/users/models.py:364
+msgid "raw user agent"
+msgstr "Сирий запис User-Agent"
+
+#: apps/users/models.py:368
+msgid "User Device Log"
+msgstr "Лог девайсу користувача"
+
+#: apps/users/models.py:369
+msgid "User Device Logs"
+msgstr "Логи девайсів користувачів"
+
+#: apps/users/schemas.py:101
+msgid "Invalid phone number"
+msgstr "Неправильний номер телефону"
+
+#: apps/users/schemas.py:106
+msgid "Invalid phone number format"
+msgstr "Неправильний формат номеру телефону"
+
+#: apps/users/schemas.py:184
+msgid "Passwords do not match"
+msgstr "Паролі не співпадають"
+
+#: apps/users/schemas.py:221
+msgid "Provide old password, new password and confirmation"
+msgstr "Введіть старий пароль, новий пароль та підтвердження"
+
+#: apps/users/schemas.py:223
+msgid "New password and confirmation do not match"
+msgstr "Новий пароль та підтвердження не збігаються"
+
+#: apps/users/utils.py:119
+msgid "You are not member of any group."
+msgstr "Ви не є членом жодної групи."
+
+#: apps/users/utils.py:222
+msgid "Activate your account"
+msgstr "Активуйте свій обліковий запис"
+
+#: apps/users/utils.py:243
+msgid "Reset your password"
+msgstr "Скиньте свій пароль"
+
+#: apps/users/utils.py:263
+msgid "Your SOULVIA chat invitation"
+msgstr "Ваше запрошення в чат SOULVIA"
+
+#: config/settings.py:154
+msgid "English"
+msgstr "Англійська"
+
+#: config/settings.py:155
+msgid "Ukrainian"
+msgstr "Українська"
+
+#: mixins/exceptions.py:6 mixins/handlers.py:27
+msgid "An internal error occurred."
+msgstr "Сталася внутрішня помилка."
+
+#: mixins/handlers.py:43
+msgid "Duplicate entry."
+msgstr "Дублювання запису."
+
+#: templates/emails/activation_email.html:7
+msgid "Account Activation"
+msgstr "Активація облікового запису"
+
+#: templates/emails/activation_email.html:24
+#, python-format
+msgid "Welcome, %(first_name)s"
+msgstr "Ласкаво просимо, %(first_name)s"
+
+#: templates/emails/activation_email.html:31
+msgid "Thank you for registering"
+msgstr "Дякуємо за реєстрацію"
+
+#: templates/emails/activation_email.html:31
+msgid ""
+"To complete your registration and activate your account, please click the "
+"button below"
+msgstr ""
+"Щоб завершити реєстрацію та активувати свій обліковий запис, натисніть "
+"кнопку нижче"
+
+#: templates/emails/activation_email.html:39
+msgid "Activate Account"
+msgstr "Активувати обліковий запис"
+
+#: templates/emails/activation_email.html:51
+msgid "If you didn't create an account, you can safely ignore this email"
+msgstr ""
+"Якщо Ви не створювали обліковий запис, можете сміливо ігнорувати цей лист"
+
+#: templates/emails/chat_invitation_email.html:24
+#: templates/emails/password_reset_email.html:24
+#, python-format
+msgid "Hello, %(first_name)s"
+msgstr "Привіт, %(first_name)s"
+
+#: templates/emails/chat_invitation_email.html:31
+msgid ""
+"Your account is now active. Join your SOULVIA chat group using the "
+"invitation below."
+msgstr ""
+"Ваш акаунт тепер активний. Приєднуйтесь до вашої групи чату SOULVIA, "
+"використовуючи запрошення нижче."
+
+#: templates/emails/chat_invitation_email.html:42
+msgid "Join your group chat"
+msgstr "Приєднатися до вашого групового чату"
+
+#: templates/emails/chat_invitation_email.html:50
+msgid "You can also join the main SOULVIA channel:"
+msgstr "Ви також можете приєднатися до основного каналу SOULVIA:"
+
+#: templates/emails/chat_invitation_email.html:66
+msgid "If this email reached you by mistake, you can ignore it."
+msgstr "Якщо цей лист надійшов вам помилково, ви можете його ігнорувати."
+
+#: templates/emails/password_reset_email.html:7
+msgid "Password Reset"
+msgstr "Скидання пароля"
+
+#: templates/emails/password_reset_email.html:31
+msgid ""
+"You are receiving this email because we received a password reset request "
+"for your account."
+msgstr ""
+"Ви отримали цей лист, оскільки ми отримали запит на скидання пароля для "
+"вашого облікового запису."
+
+#: templates/emails/password_reset_email.html:34
+msgid ""
+"To reset your password, click the button below and follow the instructions."
+msgstr "Щоб скинути пароль, натисніть кнопку нижче та дотримуйтесь інструкцій."
+
+#: templates/emails/password_reset_email.html:42
+msgid "Reset Password"
+msgstr "Скинути пароль"
+
+#: templates/emails/password_reset_email.html:49
+msgid "This link will expire in 1 hour."
+msgstr "Це посилання для скидання пароля діятиме протягом 1 години."
+
+#: templates/emails/password_reset_email.html:61
+msgid ""
+"If you didn't request a password reset, you can safely ignore this email."
+msgstr ""
+"Якщо Ви не робили запит на скидання пароля, можете сміливо ігнорувати цей "
+"лист"
+
+#~ msgid "Example: https://t.me/"
+#~ msgstr "Приклад: https://t.me/"
+
+#~ msgid "API Docs"
+#~ msgstr "Документація API"

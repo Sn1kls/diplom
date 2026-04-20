@@ -1,0 +1,53 @@
+.field-order {
+    position: relative;
+    text-align: center;
+    width: 60px;
+    overflow: visible !important;
+}
+
+.drag-handle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    background: transparent;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.drag-handle:hover {
+    background-color: rgba(79, 70, 229, 0.1);
+    color: #4f46e5 !important;
+}
+
+.drag-handle:active {
+    cursor: grabbing !important;
+}
+
+
+tbody.drag-active {
+    /*opacity: 0.5 !important;*/
+    background-color: #9810fa !important;
+    border: 2px dashed #9ca3af !important;
+}
+
+tbody.over {
+    border-top: 3px solid #4f46e5 !important;
+    background-color: rgba(79, 70, 229, 0.22) !important;
+    transition: border 0.1s ease;
+}
+
+#result_list tbody tr[draggable="true"] {
+    transition: transform 0.1s ease;
+}
+
+.field-order input {
+    display: none !important;
+}
+
+#result_list.is-dragging {
+    user-select: none;
+}

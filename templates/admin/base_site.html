@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {% if opts %}
+        {{ opts.app_label|json_script:"app-label-data" }}
+        {{ opts.model_name|json_script:"model-name-data" }}
+    {% endif %}
+{% endblock %}
